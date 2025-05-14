@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: bisque;
+    
+}
+#title{
+    font-size: 50px;
+    justify-self: center;
+}
+#qn{
+    margin-top: 35px;
+    justify-self: center;
+    font-size: 35px;
+}
+#ans{
+    width: 150px;
+    height: 60px;
+    margin-top: 30px; 
+    margin-left: 664px;
+    margin-bottom: 30px;
+    justify-self: center;
+    justify-content: center;
+    border: 5px solid rgb(100, 122, 136);
+    border-radius: 5px;
+    font-size: 40px;
+}    
+#play-area{
+    width: 1110px;
+    height:260px;
+    margin-top:30px;
+    margin-left:190px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    gap:100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#player{
+    border-color: azure;
+    border-radius: 10px;
+    text-align: center;
+    width:480px;
+    height:200px;
+}
+#computer{
+    border-color: azure;
+    border-radius: 10px;
+    text-align: center;
+    width:480px;
+    height:200px;
+}
+.b1{
+   background-color: aqua;
+   width: 150px;
+   height: 150px;
+   border-color: azure;
+}
+.b2{
+   background-color: rgb(222, 146, 178);
+   width: 150px;
+   height: 150px;
+   border-color: rgb(250, 95, 211);
+   border-radius: 10px;
+}
+.b3{
+   background-color: rgb(126, 241, 185);
+   width: 150px;
+   height: 150px;
+   border-color: azure;
+   border-radius: 10px;
+}
+#r{
+    visibility: hidden;
+    width:130px;
+    height:130px;
+}
+#p{
+    visibility: hidden;
+    width:130px;
+    height:130px;
+}
+#s{
+    visibility: hidden;
+    width:130px;
+    height:130px;
+}
+#pr{
+    width:130px;
+    height:130px;
+}
+#pp{
+    width:130px;
+    height:130px;
+}
+#ps{
+    width:130px;
+    height:130px;
+}
+#rb{
+    border:none;
+    color: white;
+    font-size: 40px;
+    width:200px;
+    height:100px;
+    background-color: rgb(58, 96, 97) ;
+    justify-self: center;
+    margin-right: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+#ng{
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: 40px;
+    width:200px;
+    height:100px;
+    background-color: rgb(58, 96, 97) ;
+    margin-left:50px;
+}
+#score{
+    justify-self: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    gap:5rem;
+    
+}
+#pscrore{
+    font-size: 50px;
+    width: 200px;
+    height:40px;
+    
+}
+#cscrore{
+    font-size: 50px;
+    width: 200px;
+    height:40px;
+    
+}

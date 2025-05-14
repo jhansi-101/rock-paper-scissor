@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Rock Paper Scissor</h1>
+    <p id="qn">Enter How Many Times You Want To Play</p>
+    <input type="number" id="ans">
+    <main>
+        <div id="play-area">
+          <div id="player">
+            <h2>Player</h2>
+            <div id="pbtns">
+               <button class="b1">
+                <img id="pr" src="rock.png" alt="Rock">
+               </button>
+               <button class="b2">
+                <img id="pp" src="paper.png" alt="Paper">
+               </button>
+               <button class="b3">
+                <img id="ps" src="scissor.png" alt="Scissor">
+               </button>
+               
+            </div>
+          </div>
+          <div id="computer">
+            <h2>Computer</h2>
+            <div id="cbtns">
+               <button class="b1" id="cr">
+                <img id="r" src="rock.png"  alt="Rock">
+               </button>
+               <button class="b2" id="cp">
+                <img id="p" src="paper.png" alt="Paper">
+               </button>
+               <button class="b3" id="cs">
+                <img id="s" src="scissor.png" alt="Scissor">
+               </button>
+            </div>
+          </div>
+        </div>
+        <h2 style="justify-self: center; font: size 50px;;">Score Board</h2>
+        <div id="score">
+            <div id="pscore"><h4>Player</h4>
+                <p id="p_score" style="font-size: 50px;">0</p>
+            </div>
+            <div id="cscore"><h4>Computer</h4>
+                <p id="c_score" style="font-size: 50px;">0</p>
+            </div>
+        </div>
+        <div id="wp" style="justify-self: center; font-size: 30px;"></div>
+        <button id="rb">Reset Game</button>
+        <button id="ng">New Game</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
